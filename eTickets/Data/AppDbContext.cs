@@ -29,6 +29,11 @@ namespace eTickets.Data
 
             base.OnModelCreating(modelBuilder);
         }
+        public DbSet<Actor_Movie> Actors_Movies { get;}
+        public DbSet<Actor> Actors { get;}
+        public DbSet<Movie> Movies { get;}
+        public DbSet<Cinema> Cinemas { get;}
+        public DbSet<Producer> Producers { get;}
 
     }
 }
